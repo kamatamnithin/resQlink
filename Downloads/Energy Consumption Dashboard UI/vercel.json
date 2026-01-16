@@ -1,7 +1,7 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "vite",
+  "framework": null,
   "functions": {
     "api/**/*.py": {
       "runtime": "python3.11"
@@ -40,6 +40,7 @@
         }
       ]
     }
-  ]
+  ],
+  "installCommand": "npm install && pip install -r requirements.txt"
   ]
 }
