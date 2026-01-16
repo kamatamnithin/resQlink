@@ -20,7 +20,7 @@ class Config:
     # CORS Configuration
     CORS_ORIGINS: List[str] = os.environ.get(
         'CORS_ORIGINS', 
-        'http://localhost:5173,http://localhost:3000'
+        'http://localhost:5173,http://localhost:3000,https://smartenergy-dashboard.vercel.app'
     ).split(',')
     
     # Rate Limiting
